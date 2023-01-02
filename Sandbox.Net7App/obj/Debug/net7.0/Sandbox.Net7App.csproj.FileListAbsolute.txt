@@ -1,0 +1,15 @@
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\bin\Debug\net7.0\Sandbox.Net7App.exe
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\bin\Debug\net7.0\Sandbox.Net7App.deps.json
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\bin\Debug\net7.0\Sandbox.Net7App.runtimeconfig.json
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\bin\Debug\net7.0\Sandbox.Net7App.dll
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\bin\Debug\net7.0\Sandbox.Net7App.pdb
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\obj\Debug\net7.0\Sandbox.Net7App.csproj.AssemblyReference.cache
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\obj\Debug\net7.0\Sandbox.Net7App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\obj\Debug\net7.0\Sandbox.Net7App.AssemblyInfoInputs.cache
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\obj\Debug\net7.0\Sandbox.Net7App.AssemblyInfo.cs
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\obj\Debug\net7.0\Sandbox.Net7App.csproj.CoreCompileInputs.cache
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\obj\Debug\net7.0\Sandbox.Net7App.dll
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\obj\Debug\net7.0\refint\Sandbox.Net7App.dll
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\obj\Debug\net7.0\Sandbox.Net7App.pdb
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\obj\Debug\net7.0\Sandbox.Net7App.genruntimeconfig.cache
+C:\Users\alexb\source\repos\Sandbox\Sandbox.Net7App\obj\Debug\net7.0\ref\Sandbox.Net7App.dll

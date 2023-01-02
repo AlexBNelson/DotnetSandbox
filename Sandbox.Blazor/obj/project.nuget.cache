@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6yNPVFTW312xnhw7ZXJxVjVdg9CmNrtstJk5a8Zo03ZDCDcIIuF+5q9SziUCmodieIGutxmcWiPCJfGO42gW3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexb\\source\\repos\\Sandbox\\Sandbox.Blazor\\Sandbox.Blazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexb\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

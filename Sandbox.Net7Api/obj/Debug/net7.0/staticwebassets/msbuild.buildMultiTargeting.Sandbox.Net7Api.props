@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sandbox.Net7Api.props" />
+</Project>
