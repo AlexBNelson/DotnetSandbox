@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<!--From this tutorial https://www.w3schools.com/xml/schema_howto.asp-->
+<matchdata matchid="889923"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="MatchData.xsd">
+	<referee>John Smith</referee>
+	<match>
+		<home>Brighton</home>
+		<away>Aston Villa</away>
+		<stadium>Amex</stadium>
+		<matchday>12</matchday>
+	</match>
+	<security>
+		<contractor>G4S</contractor>
+		<priceInPounds>50000</priceInPounds>
+		<sector>Stands</sector>
+		<sector>Pitch</sector>
+	</security>
+	<security>
+		<contractor>Serco</contractor>
+		<priceInPounds>30000</priceInPounds>
+	</security>
+</matchdata>

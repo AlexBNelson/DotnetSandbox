@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<!--Microsoft Sample https://learn.microsoft.com/en-us/visualstudio/xml-tools/sample-xsd-file-simple-schema?view=vs-2022-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:simpleType name="stringtype">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="inttype">
+		<xs:restriction base="xs:positiveInteger"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="dectype">
+		<xs:restriction base="xs:decimal"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="matchidtype">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{6}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="matchType">
+		<xs:sequence>
+			<xs:element name="home" type="stringtype"/>
+			<xs:element name="away" type="stringtype"/>
+			<xs:element name="stadium" type="stringtype"/>
+			<xs:element name="matchday" type="inttype"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="securityType">
+		<xs:sequence>
+			<xs:element name="contractor" type="stringtype"/>
+			<xs:element name="priceInPounds" type="inttype"/>
+			<xs:element name="sector" type="stringtype" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="matchdataType">
+		<xs:sequence>
+			<xs:element name="referee" type="stringtype"/>
+			<xs:element name="match" type="matchType"/>
+			<xs:element name="security" maxOccurs="unbounded" type="securityType"/>
+		</xs:sequence>
+		<xs:attribute name="matchid" type="matchidtype" use="required"/>
+	</xs:complexType>
+
+	<xs:element name="matchdata" type="matchdataType"/>
+
+</xs:schema>

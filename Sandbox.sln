@@ -9,7 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Net7Api", "Sandbox.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Blazor", "Sandbox.Blazor\Sandbox.Blazor.csproj", "{0855896D-84CE-4CA8-8009-6B655F01FD01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Net7App", "Sandbox.Net7App\Sandbox.Net7App.csproj", "{906E3413-1C24-475E-B739-1B2CFE1A2A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Net7App", "Sandbox.Net7App\Sandbox.Net7App.csproj", "{906E3413-1C24-475E-B739-1B2CFE1A2A35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeInjectionHook", "CodeInjectionHook\CodeInjectionHook.csproj", "{5ED20DE9-B31B-4819-9066-4C80FC16A390}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3815CEB-FE0F-4F42-B107-F328CF778484}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +40,10 @@ Global
 		{906E3413-1C24-475E-B739-1B2CFE1A2A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{906E3413-1C24-475E-B739-1B2CFE1A2A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{906E3413-1C24-475E-B739-1B2CFE1A2A35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED20DE9-B31B-4819-9066-4C80FC16A390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED20DE9-B31B-4819-9066-4C80FC16A390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED20DE9-B31B-4819-9066-4C80FC16A390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED20DE9-B31B-4819-9066-4C80FC16A390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

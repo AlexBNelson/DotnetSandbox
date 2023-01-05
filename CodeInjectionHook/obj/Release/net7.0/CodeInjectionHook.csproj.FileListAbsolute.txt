@@ -1,0 +1,12 @@
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\bin\Release\net7.0\CodeInjectionHook.deps.json
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\bin\Release\net7.0\CodeInjectionHook.dll
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\bin\Release\net7.0\CodeInjectionHook.pdb
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\obj\Release\net7.0\CodeInjectionHook.csproj.AssemblyReference.cache
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\obj\Release\net7.0\CodeInjectionHook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\obj\Release\net7.0\CodeInjectionHook.AssemblyInfoInputs.cache
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\obj\Release\net7.0\CodeInjectionHook.AssemblyInfo.cs
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\obj\Release\net7.0\CodeInjectionHook.csproj.CoreCompileInputs.cache
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\obj\Release\net7.0\CodeInjectionHook.dll
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\obj\Release\net7.0\refint\CodeInjectionHook.dll
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\obj\Release\net7.0\CodeInjectionHook.pdb
+C:\Users\alexb\source\repos\Sandbox\CodeInjectionHook\obj\Release\net7.0\ref\CodeInjectionHook.dll

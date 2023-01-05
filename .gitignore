@@ -1,0 +1,6 @@
+.*
+!/.gitignore
+/Sandbox.Net7Api/obj/Release/net7.0
+/Sandbox.Blazor/obj/Release/net7.0
+/Sandbox.Net7App/obj/Release/net7.0
+*.suo

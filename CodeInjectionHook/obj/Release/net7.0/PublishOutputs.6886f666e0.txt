@@ -1,0 +1,3 @@
+C:\Users\alexb\source\repos\Sandbox\PublishedCode\CodeInjectionHook.dll
+C:\Users\alexb\source\repos\Sandbox\PublishedCode\CodeInjectionHook.deps.json
+C:\Users\alexb\source\repos\Sandbox\PublishedCode\CodeInjectionHook.pdb
