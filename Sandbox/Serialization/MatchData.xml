@@ -1,5 +1,4 @@
-﻿<?xml version="1.0"?>
-<!--From this tutorial https://www.w3schools.com/xml/schema_howto.asp-->
+﻿<?xml version="1.0" encoding="utf-8"?>
 <matchdata matchid="889923"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="MatchData.xsd">
@@ -21,3 +20,4 @@ xsi:noNamespaceSchemaLocation="MatchData.xsd">
 		<priceInPounds>30000</priceInPounds>
 	</security>
 </matchdata>
+<!--From this tutorial https://www.w3schools.com/xml/schema_howto.asp-->

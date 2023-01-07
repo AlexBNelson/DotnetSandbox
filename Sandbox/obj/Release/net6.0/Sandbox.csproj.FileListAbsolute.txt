@@ -93,3 +93,5 @@ C:\Users\alexb\source\repos\Sandbox\Sandbox\obj\Release\net6.0\refint\Sandbox.dl
 C:\Users\alexb\source\repos\Sandbox\Sandbox\obj\Release\net6.0\Sandbox.pdb
 C:\Users\alexb\source\repos\Sandbox\Sandbox\obj\Release\net6.0\Sandbox.genruntimeconfig.cache
 C:\Users\alexb\source\repos\Sandbox\Sandbox\obj\Release\net6.0\ref\Sandbox.dll
+C:\Users\alexb\source\repos\Sandbox\Sandbox\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\alexb\source\repos\Sandbox\Sandbox\bin\Release\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll

@@ -6,6 +6,6 @@ internal class StartupHook
     {
         public static void Initialize()
         {
-        Console.WriteLine("Started from hook");
+            Console.WriteLine("Started from hook");
         }
     }

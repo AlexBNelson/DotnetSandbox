@@ -6,7 +6,11 @@ using Sandbox;
 using Sandbox.Serialization;
 using System.Text.Json;
 
-RunPeriodicTimedOperation();
+//RunPeriodicTimedOperation();
+
+XmlDataSerialization dataSerialization = new XmlDataSerialization();
+
+var obj = dataSerialization.DeserializeMatchXML();
 
 //var average = ConcurrentMatchMinuteRandom.GetWeightedValuesAverage(4);
 

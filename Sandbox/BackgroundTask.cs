@@ -13,7 +13,7 @@
             _timer = new PeriodicTimer(interval);
         }
 
-        public async void AnyMatchEvent(int minute)
+        public async Task AnyMatchEvent(int minute)
         {
             try
             {
@@ -43,7 +43,7 @@
 
         public void Start()
         {
-            _timerTask = AnyMatchEvent();
+            _timerTask = AnyMatchEvent(minuteCount);
         }
 
         public async Task StopAsync()
