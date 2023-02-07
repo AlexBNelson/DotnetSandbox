@@ -25,8 +25,11 @@ builder.Services.AddMediatR(x => x.AsScoped(), typeof(Program));
 
 builder.Services.AddHostedService<MatchService>();
 
+builder.Services.AddApiVersioning();
 
 var app = builder.Build();
+
+var versionSet = app.NewApiVersionSet().HasApiVersion(1).HasApiVersion(2).Build();
 
 app.UseOutputCache();
 
@@ -42,6 +45,10 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapGroup("vq");
+
+app.MapGet("V2", () => "This is Version 2").WithApiVersionSet(versionSet).MapToApiVersion(1);
 
 app.MediateGet<UserRequest>("first20usersAppendTag/{tag}");
 

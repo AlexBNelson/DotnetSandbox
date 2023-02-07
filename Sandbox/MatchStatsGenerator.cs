@@ -2,6 +2,7 @@
 using Bogus.DataSets;
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,6 +47,14 @@ namespace Sandbox
             yield return 2;
         }
 
+        public static (string,int) GetTopScorer()
+        {
+            var stats = GenerateMatchStats();
+
+            var(topScorer,topScorerGoals) = stats;
+
+            return (topScorer,topScorerGoals);
+        }
 
 
         private static List<Goal> GenerateScores((Team?, Team?) teams)
@@ -93,7 +102,7 @@ namespace Sandbox
                     result.Add(new Assist()
                     {
                         Team = goals[i].Team,
-                        Assister = team.Players[ConcurrentMatchMinuteRandom.Instance.Next(10)],
+                        Assister = team.Players[ConcurrentMatchMinuteRandom.Instance.Next(team.Players.Count)],
                         Minute = goals[i].Minute
                     });
                 }

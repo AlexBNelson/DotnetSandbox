@@ -97,5 +97,43 @@ namespace Sandbox.Net7App
 
             return array;
         }
+
+        //Has the narrow use case of optimizing array manipulation
+        public int[] StackAllocate()
+        {
+            int length = 3;
+            Span<int> numbers = stackalloc int[length];
+            for (var i = 0; i < length; i++)
+            {
+                numbers[i] = i;
+            }
+
+            return numbers.ToArray();
+        }
+
+        public void ObjectManipulation()
+        {
+            User user = new();
+
+            user.Name = "test";
+
+            user.Id= 1;
+
+
+            var user2 = user;
+
+            user.Id = 2;
+
+            Console.WriteLine(user2.Id);
+
+            Console.ReadLine();
+
+        }
+
+        internal class User
+        {
+            public string Name { get; set; }
+            public int Id { get; set; }
+        }
     }
 }

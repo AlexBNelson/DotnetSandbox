@@ -8,6 +8,9 @@ using System.Text.Json;
 
 //RunPeriodicTimedOperation();
 
+
+var topscorer = MatchStatsGenerator.GetTopScorer();
+
 XmlDataSerialization dataSerialization = new XmlDataSerialization();
 
 var obj = dataSerialization.DeserializeMatchXML();
@@ -49,6 +52,10 @@ var obj = dataSerialization.DeserializeMatchXML();
 //var weightedRandomValues = weightedRandomValueGenerate.Invoke();
 
 //var average = weightedRandomValues.Average();
+ValueTaskExample.ReadAsync(new MemoryStream(10));
+
+
+
 Console.ReadLine();
  static async void RunPeriodicTimedOperation()
 {

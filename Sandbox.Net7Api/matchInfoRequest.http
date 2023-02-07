@@ -1,1 +1,3 @@
 ﻿GET https://localhost:7251/first20usersAppendTag/bossman
+
+GET https://localhost:7251/hello?api-version=1
