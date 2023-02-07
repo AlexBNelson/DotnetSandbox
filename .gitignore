@@ -288,3 +288,4 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+/Sandbox.Net7App/bin/Debug/net7.0/Sandbox.Net7App.pdb
